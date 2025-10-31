@@ -1,4 +1,5 @@
 export type Token = {
+  id: string;
   name: string;
   symbol: string;
   logo: string;
@@ -33,4 +34,10 @@ export type PublicPortfolio = {
   followers: number;
   dailyChange: number;
   tokens: Token[];
+};
+
+export type User = {
+    id: string;
+    name: string;
+    avatar: string;
 };

@@ -2,6 +2,7 @@ import type { Token, Chain, PortfolioHistory, PublicPortfolio } from '@/types';
 
 export const mockTokens: Token[] = [
   {
+    id: '1',
     name: 'Ethereum',
     symbol: 'ETH',
     logo: '/tokens/eth.svg',
@@ -12,6 +13,7 @@ export const mockTokens: Token[] = [
     percentage: 43.75,
   },
   {
+    id: '2',
     name: 'USD Coin',
     symbol: 'USDC',
     logo: '/tokens/usdc.svg',
@@ -22,6 +24,7 @@ export const mockTokens: Token[] = [
     percentage: 25.0,
   },
   {
+    id: '3',
     name: 'Wrapped Bitcoin',
     symbol: 'WBTC',
     logo: '/tokens/wbtc.svg',
@@ -32,6 +35,7 @@ export const mockTokens: Token[] = [
     percentage: 17.5,
   },
   {
+    id: '4',
     name: 'Polygon',
     symbol: 'MATIC',
     logo: '/tokens/matic.svg',
@@ -42,6 +46,7 @@ export const mockTokens: Token[] = [
     percentage: 7.0,
   },
   {
+    id: '5',
     name: 'Dai',
     symbol: 'DAI',
     logo: '/tokens/dai.svg',

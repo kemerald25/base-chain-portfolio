@@ -19,11 +19,14 @@ const MainNav = () => {
           key={route.href}
           href={route.href}
           className={cn(
-            'transition-colors hover:text-primary',
+            'transition-colors hover:text-primary relative',
             pathname === route.href ? 'text-foreground' : 'text-foreground/60'
           )}
         >
           {route.label}
+          {pathname === route.href && (
+            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary animate-in fade-in duration-300"></span>
+          )}
         </Link>
       ))}
     </nav>
