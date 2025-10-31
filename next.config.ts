@@ -30,6 +30,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  transpilePackages: ['@reown/appkit-adapter-wagmi', 'wagmi', '@tanstack/react-query'],
 };
 
 export default nextConfig;
